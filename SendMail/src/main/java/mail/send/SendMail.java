@@ -31,7 +31,7 @@ public class SendMail {
 		Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
 				//TODO -- Password need to update
-				return new PasswordAuthentication(sender, "gshriram5457");
+				return new PasswordAuthentication(sender, "XXXX_password");
 			}
 		});
 
